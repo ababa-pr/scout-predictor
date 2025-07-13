@@ -1,0 +1,107 @@
+/* 結果ページ固有のスタイル */
+
+body {
+    background-color: #F7FAFC;
+}
+
+.container {
+    background-color: #F7FAFC;
+}
+
+.main-content {
+    background-color: #F7FAFC;
+}
+
+.result-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 24px;
+}
+
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.scout-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.scout-card {
+    background: #e8f5f3;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.company-header {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.company-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.job-type {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.company-details {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.detail-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detail-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.detail-value {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* 登録ボタン */
+.register-button {
+    width: 100%;
+    max-width: 396px;
+    margin: 0 auto;
+    display: block;
+    padding: 18px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #e91e63;
+    border: 1px solid #e91e63;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #d81b60;
+    transform: translateY(-1px);
+}
+
+.register-button:active {
+    transform: translateY(0);
+} 

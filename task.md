@@ -1,0 +1,5 @@
+ - [x] backgroud-colorを全ページ #F7FAFC に変更
+ - [x] '大学'をsection-titleに変更
+   - [x] section-titleのfont-sizeは揃える
+ - [x] 'ABABAスカウト診断'をpage-titleに変更する
+ - [x] 'diagnose-button'に 1px のstrokeをつける
